@@ -1,0 +1,11 @@
+{
+  "wal": {
+    "directory": "data/wal",
+    "segment_size_blocks": 16,
+    "max_records_per_segment": 100,
+    "sync_on_write": true
+  },
+  "block_manager": {
+    "block_size": 4096
+  }
+}
